@@ -138,6 +138,14 @@ img {
 
 }
 
+/* MOBILE VERSION */
 @media screen and (max-width: 480px) {
+    .row {
+        display: block;
+        
+    }
 
+    .col{
+        margin: 0 auto;
+    }
 }
