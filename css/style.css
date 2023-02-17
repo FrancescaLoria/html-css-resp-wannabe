@@ -145,9 +145,39 @@ img {
         
     }
 
+    .steps .card:not(.steps .col:last-child > .card) {
+        padding-bottom: 2rem;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons > .container {
+        padding-bottom: 2rem;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
     .col {
         margin: 0 auto;
     }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us ul{
+        padding-top: 2rem;
+    }
+
+
 
     .why-us {
         background-color: black;
